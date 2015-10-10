@@ -7,11 +7,11 @@
 /*-----------------------------------
  * Initialize uart
  *---------------------------------*/
-void init_uart()
+void uart_init()
 {
     SPBRG = SPBRG_DATA;
-    TXSTA = ( TXSTA_TXEN | TXSTA_BRGH);
-    RCSTA = ( RCSTA_SPEN | RCSTA_CREN);
+    TXSTA = (TXSTA_TXEN | TXSTA_BRGH);
+    RCSTA = (RCSTA_SPEN | RCSTA_CREN);
 }
 
 

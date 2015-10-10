@@ -48,7 +48,7 @@
 
 
 /* Prototype of Function */
-void init_uart();
+void uart_init();
 void putch(unsigned char byte);
 unsigned char getch();
  

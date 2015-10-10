@@ -4,7 +4,7 @@
 
 
 /* Internal Clock Frequency Set */
-#define INT_CLOCK_SET = 0x70
+#define INT_CLOCK_SET (0x70)
 
 
 /* Configuratino */
@@ -50,7 +50,7 @@ void main(void)
     char data; 
 
     pic_init();
-    init_uart();
+    uart_init();
      
     printf("Press a key:\r\n");
     
